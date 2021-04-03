@@ -10,8 +10,8 @@
 
 This program's approach is to divide the alphabet into **two** groups:
 
-1. text <= 12 (a-m) can have 13 added to get the cipher (n-z)
-2. text >= 13 (n-z) can have 13 subtracted to get the cipher (a-m)
+1. letters under 13 (a-m) can have 13 added to get the cipher (n-z)
+2. letters over 12 (n-z) can have 13 subtracted to get the cipher (a-m)
 
 The alphabet is 0-25 characters.
 All other characters are ignored but appended anyway (numbers, spaces, special characters).
